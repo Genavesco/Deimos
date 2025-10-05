@@ -55,9 +55,8 @@ Explain exactly how you used each dataset (e.g., "SBDB summary populates the ast
 List any additional imagery, fonts, code snippets, or libraries you include. Provide attribution or licenses if required.
 
 ## Use of Artificial Intelligence
-AI tools used: <None / list specific tools>
+AI tools used: <codex>
 
-If you add AI-generated assets, describe the workflow and include watermarks or attribution per NASA guidelines.
 
 ## Project Submission Verification
 Confirm that you reviewed the Participant Terms & Conditions, Privacy Policy, and originality requirements. Ensure the public links are accessible without authentication before hitting **Submit for Judging**.
