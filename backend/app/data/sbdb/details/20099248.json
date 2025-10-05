@@ -1,0 +1,211 @@
+{
+  "fetched_at": 1759670813.310415,
+  "data": {
+    "vi_data": [],
+    "signature": {
+      "version": "1.3",
+      "source": "NASA/JPL Small-Body Database (SBDB) API"
+    },
+    "phys_par": [
+      {
+        "units": null,
+        "notes": null,
+        "title": "absolute magnitude",
+        "ref": "E2025C34",
+        "value": "16.54",
+        "name": "H",
+        "sigma": null,
+        "desc": "absolute magnitude (magnitude at 1 au from Sun and observer)"
+      },
+      {
+        "notes": null,
+        "title": "diameter",
+        "units": "km",
+        "name": "diameter",
+        "sigma": "0.045",
+        "desc": "effective body diameter",
+        "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[neos] (http://adsabs.harvard.edu/abs/2015ApJ...814..117N)",
+        "value": "1.115"
+      },
+      {
+        "value": "19.7",
+        "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+        "sigma": null,
+        "desc": "body rotation period (synodic)",
+        "name": "rot_per",
+        "units": "h",
+        "notes": "[Result based on less than full coverage, so that the period may be wrong by 30 percent or so.]  REFERENCE LIST:[Warner, B.D. (2015) Minor Planet Bull. 42, 172-183.], [Warner, B.D.; Stephens, R.D. (2020) Minor Planet Bull. 47, 105-120.]",
+        "title": "rotation period"
+      },
+      {
+        "notes": null,
+        "title": "geometric albedo",
+        "units": null,
+        "sigma": "0.058",
+        "desc": "geometric albedo",
+        "name": "albedo",
+        "value": "0.429",
+        "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[neos] (http://adsabs.harvard.edu/abs/2015ApJ...814..117N)"
+      }
+    ],
+    "object": {
+      "neo": true,
+      "fullname": "99248 (2001 KY66)",
+      "kind": "an",
+      "prefix": null,
+      "spkid": "20099248",
+      "orbit_class": {
+        "code": "APO",
+        "name": "Apollo"
+      },
+      "pha": true,
+      "des": "99248",
+      "orbit_id": "346"
+    },
+    "discovery": {
+      "who": "NEAT",
+      "site": null,
+      "cref": null,
+      "date": "2001-May-29",
+      "discovery": "Discovered 2001-05-29 by NEAT at Palomar",
+      "citation": null,
+      "name": null,
+      "ref": "20050224/Numbers.arc",
+      "location": "Palomar"
+    },
+    "orbit": {
+      "elements": [
+        {
+          "title": "eccentricity",
+          "sigma": "1.9e-08",
+          "label": "e",
+          "name": "e",
+          "value": "0.508",
+          "units": null
+        },
+        {
+          "units": "au",
+          "value": "1.87",
+          "name": "a",
+          "label": "a",
+          "title": "semi-major axis",
+          "sigma": "4.3e-09"
+        },
+        {
+          "units": "au",
+          "value": "0.919",
+          "label": "q",
+          "name": "q",
+          "sigma": "3.5e-08",
+          "title": "perihelion distance"
+        },
+        {
+          "value": "10.6",
+          "units": "deg",
+          "title": "inclination; angle with respect to x-y ecliptic plane",
+          "sigma": "3.4e-06",
+          "name": "i",
+          "label": "i"
+        },
+        {
+          "value": "284",
+          "units": "deg",
+          "sigma": "1.6e-05",
+          "title": "longitude of the ascending node",
+          "label": "node",
+          "name": "om"
+        },
+        {
+          "units": "deg",
+          "value": "61.5",
+          "label": "peri",
+          "name": "w",
+          "sigma": "1.7e-05",
+          "title": "argument of perihelion"
+        },
+        {
+          "value": "154",
+          "units": "deg",
+          "title": "mean anomaly",
+          "sigma": "3.4e-06",
+          "name": "ma",
+          "label": "M"
+        },
+        {
+          "value": "2460601.188",
+          "units": "TDB",
+          "title": "time of perihelion passage",
+          "sigma": "7.9e-06",
+          "label": "tp",
+          "name": "tp"
+        },
+        {
+          "value": "931",
+          "units": "d",
+          "sigma": "3.2e-06",
+          "title": "sidereal orbital period",
+          "label": "period",
+          "name": "per"
+        },
+        {
+          "sigma": "1.3e-09",
+          "title": "mean motion",
+          "label": "n",
+          "name": "n",
+          "value": "0.387",
+          "units": "deg/d"
+        },
+        {
+          "value": "2.81",
+          "units": "au",
+          "sigma": "6.5e-09",
+          "title": "aphelion distance",
+          "name": "ad",
+          "label": "Q"
+        }
+      ],
+      "n_del_obs_used": null,
+      "sb_used": "SB441-N16",
+      "first_obs": "1991-06-08",
+      "t_jup": "3.802",
+      "not_valid_before": null,
+      "moid_jup": "2.69",
+      "equinox": "J2000",
+      "data_arc": "12329",
+      "cov_epoch": "2458663.5",
+      "n_dop_obs_used": null,
+      "soln_date": "2025-04-05 06:18:01",
+      "last_obs": "2025-03-10",
+      "source": "JPL",
+      "producer": "Otto Matic",
+      "orbit_id": "346",
+      "epoch": "2461000.5",
+      "model_pars": [],
+      "moid": "0.0464",
+      "pe_used": "DE441",
+      "rms": "0.29",
+      "condition_code": "0",
+      "comment": null,
+      "two_body": null,
+      "n_obs_used": 3584,
+      "not_valid_after": null
+    }
+  },
+  "normalized": {
+    "spkid": "20099248",
+    "full_name": "99248 (2001 KY66)",
+    "pha": true,
+    "absolute_magnitude_h": null,
+    "diameter_km": 1.115,
+    "diameter_m": 1115.0,
+    "density_kgm3": null,
+    "velocity_kms": null,
+    "impact_probability": null,
+    "palermo_scale": null,
+    "torino_scale": null,
+    "reported_energy_megatons": null,
+    "reported_mass_kg": null,
+    "vi_data": [],
+    "source": "NASA SBDB"
+  }
+}

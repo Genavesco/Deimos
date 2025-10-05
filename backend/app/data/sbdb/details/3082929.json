@@ -1,0 +1,171 @@
+{
+  "fetched_at": 1759664174.8907127,
+  "data": {
+    "discovery": {},
+    "phys_par": [
+      {
+        "notes": null,
+        "ref": "MPO739993",
+        "desc": "absolute magnitude (magnitude at 1 au from Sun and observer)",
+        "name": "H",
+        "units": null,
+        "value": "19.82",
+        "sigma": null,
+        "title": "absolute magnitude"
+      }
+    ],
+    "vi_data": [],
+    "signature": {
+      "version": "1.3",
+      "source": "NASA/JPL Small-Body Database (SBDB) API"
+    },
+    "orbit": {
+      "sb_used": "SB441-N16",
+      "n_obs_used": 161,
+      "data_arc": "8307",
+      "not_valid_after": null,
+      "comment": null,
+      "first_obs": "2001-02-20",
+      "moid": "0.0339",
+      "moid_jup": "1.28",
+      "n_del_obs_used": 1,
+      "condition_code": "0",
+      "not_valid_before": null,
+      "cov_epoch": "2454363.5",
+      "epoch": "2461000.5",
+      "last_obs": "2023-11-19",
+      "n_dop_obs_used": 1,
+      "orbit_id": "28",
+      "two_body": null,
+      "pe_used": "DE441",
+      "equinox": "J2000",
+      "model_pars": [],
+      "elements": [
+        {
+          "label": "e",
+          "name": "e",
+          "sigma": "6.4e-08",
+          "value": "0.665",
+          "units": null,
+          "title": "eccentricity"
+        },
+        {
+          "name": "a",
+          "sigma": "3.4e-08",
+          "label": "a",
+          "units": "au",
+          "title": "semi-major axis",
+          "value": "2.36"
+        },
+        {
+          "value": "0.791",
+          "title": "perihelion distance",
+          "units": "au",
+          "label": "q",
+          "sigma": "1.6e-07",
+          "name": "q"
+        },
+        {
+          "label": "i",
+          "sigma": "8.8e-06",
+          "name": "i",
+          "value": "2.46",
+          "title": "inclination; angle with respect to x-y ecliptic plane",
+          "units": "deg"
+        },
+        {
+          "units": "deg",
+          "title": "longitude of the ascending node",
+          "value": "98.9",
+          "name": "om",
+          "sigma": "0.00044",
+          "label": "node"
+        },
+        {
+          "name": "w",
+          "sigma": "0.00043",
+          "label": "peri",
+          "title": "argument of perihelion",
+          "units": "deg",
+          "value": "191"
+        },
+        {
+          "name": "ma",
+          "sigma": "2.8e-05",
+          "label": "M",
+          "units": "deg",
+          "title": "mean anomaly",
+          "value": "249"
+        },
+        {
+          "units": "TDB",
+          "title": "time of perihelion passage",
+          "value": "2461409.868",
+          "name": "tp",
+          "sigma": "0.00011",
+          "label": "tp"
+        },
+        {
+          "label": "period",
+          "name": "per",
+          "sigma": "2.8e-05",
+          "value": "1320",
+          "units": "d",
+          "title": "sidereal orbital period"
+        },
+        {
+          "name": "n",
+          "sigma": "5.8e-09",
+          "label": "n",
+          "title": "mean motion",
+          "units": "deg/d",
+          "value": "0.272"
+        },
+        {
+          "title": "aphelion distance",
+          "units": "au",
+          "value": "3.93",
+          "sigma": "5.6e-08",
+          "name": "ad",
+          "label": "Q"
+        }
+      ],
+      "soln_date": "2023-11-21 05:30:43",
+      "t_jup": "3.210",
+      "rms": "0.5",
+      "source": "JPL",
+      "producer": "Otto Matic"
+    },
+    "object": {
+      "neo": true,
+      "fullname": "(2001 SZ269)",
+      "orbit_class": {
+        "code": "APO",
+        "name": "Apollo"
+      },
+      "orbit_id": "28",
+      "kind": "au",
+      "des": "2001 SZ269",
+      "prefix": null,
+      "spkid": "3082929",
+      "pha": true
+    }
+  },
+  "normalized": {
+    "spkid": "3082929",
+    "full_name": "(2001 SZ269)",
+    "pha": true,
+    "absolute_magnitude_h": null,
+    "diameter_km": null,
+    "diameter_m": null,
+    "density_kgm3": null,
+    "velocity_kms": null,
+    "impact_probability": null,
+    "palermo_scale": null,
+    "torino_scale": null,
+    "reported_energy_megatons": null,
+    "reported_mass_kg": null,
+    "vi_data": [],
+    "source": "NASA SBDB"
+  }
+}

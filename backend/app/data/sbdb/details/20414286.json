@@ -1,0 +1,201 @@
+{
+  "fetched_at": 1759664208.4769807,
+  "data": {
+    "vi_data": [],
+    "signature": {
+      "version": "1.3",
+      "source": "NASA/JPL Small-Body Database (SBDB) API"
+    },
+    "object": {
+      "spkid": "20414286",
+      "pha": true,
+      "prefix": null,
+      "orbit_id": "109",
+      "kind": "an",
+      "des": "414286",
+      "neo": true,
+      "fullname": "414286 (2008 OC6)",
+      "orbit_class": {
+        "code": "ATE",
+        "name": "Aten"
+      }
+    },
+    "orbit": {
+      "rms": "0.43",
+      "t_jup": "6.403",
+      "source": "JPL",
+      "producer": "Otto Matic",
+      "soln_date": "2023-09-01 06:01:10",
+      "equinox": "J2000",
+      "model_pars": [],
+      "elements": [
+        {
+          "name": "e",
+          "sigma": "7.2e-08",
+          "label": "e",
+          "title": "eccentricity",
+          "units": null,
+          "value": "0.199"
+        },
+        {
+          "value": "0.923",
+          "title": "semi-major axis",
+          "units": "au",
+          "label": "a",
+          "name": "a",
+          "sigma": "2.2e-09"
+        },
+        {
+          "label": "q",
+          "name": "q",
+          "sigma": "6.7e-08",
+          "value": "0.739",
+          "title": "perihelion distance",
+          "units": "au"
+        },
+        {
+          "label": "i",
+          "sigma": "1e-05",
+          "name": "i",
+          "value": "21.8",
+          "title": "inclination; angle with respect to x-y ecliptic plane",
+          "units": "deg"
+        },
+        {
+          "name": "om",
+          "sigma": "2.1e-05",
+          "label": "node",
+          "title": "longitude of the ascending node",
+          "units": "deg",
+          "value": "178"
+        },
+        {
+          "name": "w",
+          "sigma": "2.2e-05",
+          "label": "peri",
+          "units": "deg",
+          "title": "argument of perihelion",
+          "value": "296"
+        },
+        {
+          "units": "deg",
+          "title": "mean anomaly",
+          "value": "96.2",
+          "sigma": "3.2e-05",
+          "name": "ma",
+          "label": "M"
+        },
+        {
+          "title": "time of perihelion passage",
+          "units": "TDB",
+          "value": "2460913.898",
+          "sigma": "2.9e-05",
+          "name": "tp",
+          "label": "tp"
+        },
+        {
+          "title": "sidereal orbital period",
+          "units": "d",
+          "value": "324",
+          "name": "per",
+          "sigma": "1.2e-06",
+          "label": "period"
+        },
+        {
+          "value": "1.11",
+          "title": "mean motion",
+          "units": "deg/d",
+          "label": "n",
+          "name": "n",
+          "sigma": "4e-09"
+        },
+        {
+          "sigma": "2.6e-09",
+          "name": "ad",
+          "label": "Q",
+          "title": "aphelion distance",
+          "units": "au",
+          "value": "1.11"
+        }
+      ],
+      "pe_used": "DE441",
+      "orbit_id": "109",
+      "two_body": null,
+      "n_dop_obs_used": null,
+      "last_obs": "2022-09-22",
+      "epoch": "2461000.5",
+      "cov_epoch": "2458149.5",
+      "condition_code": "0",
+      "n_del_obs_used": null,
+      "not_valid_before": null,
+      "moid_jup": "3.97",
+      "first_obs": "2008-07-29",
+      "moid": "0.0306",
+      "comment": null,
+      "data_arc": "5168",
+      "not_valid_after": null,
+      "n_obs_used": 527,
+      "sb_used": "SB441-N16"
+    },
+    "phys_par": [
+      {
+        "title": "absolute magnitude",
+        "sigma": null,
+        "value": "18.59",
+        "units": null,
+        "desc": "absolute magnitude (magnitude at 1 au from Sun and observer)",
+        "notes": null,
+        "ref": "E2022-OB0",
+        "name": "H"
+      },
+      {
+        "sigma": "0.081",
+        "title": "diameter",
+        "notes": null,
+        "name": "diameter",
+        "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[neos] (http://adsabs.harvard.edu/abs/2015ApJ...814..117N)",
+        "desc": "effective body diameter",
+        "value": "0.369",
+        "units": "km"
+      },
+      {
+        "title": "geometric albedo",
+        "sigma": "0.188",
+        "units": null,
+        "value": "0.471",
+        "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[neos] (http://adsabs.harvard.edu/abs/2015ApJ...814..117N)",
+        "notes": null,
+        "desc": "geometric albedo",
+        "name": "albedo"
+      }
+    ],
+    "discovery": {
+      "discovery": "Discovered 2008-07-29 by Mt. Lemmon Survey at Mount Lemmon",
+      "site": null,
+      "citation": null,
+      "cref": null,
+      "ref": null,
+      "name": null,
+      "date": "2008-Jul-29",
+      "location": "Mount Lemmon",
+      "who": "Mt. Lemmon Survey"
+    }
+  },
+  "normalized": {
+    "spkid": "20414286",
+    "full_name": "414286 (2008 OC6)",
+    "pha": true,
+    "absolute_magnitude_h": null,
+    "diameter_km": 0.369,
+    "diameter_m": 369.0,
+    "density_kgm3": null,
+    "velocity_kms": null,
+    "impact_probability": null,
+    "palermo_scale": null,
+    "torino_scale": null,
+    "reported_energy_megatons": null,
+    "reported_mass_kg": null,
+    "vi_data": [],
+    "source": "NASA SBDB"
+  }
+}

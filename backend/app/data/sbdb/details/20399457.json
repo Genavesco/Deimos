@@ -1,0 +1,181 @@
+{
+  "fetched_at": 1759664555.842623,
+  "data": {
+    "vi_data": [],
+    "signature": {
+      "version": "1.3",
+      "source": "NASA/JPL Small-Body Database (SBDB) API"
+    },
+    "object": {
+      "spkid": "20399457",
+      "pha": true,
+      "prefix": null,
+      "orbit_id": "36",
+      "kind": "an",
+      "des": "399457",
+      "neo": true,
+      "fullname": "399457 (2002 PD43)",
+      "orbit_class": {
+        "code": "APO",
+        "name": "Apollo"
+      }
+    },
+    "orbit": {
+      "n_obs_used": 179,
+      "sb_used": "SB441-N16",
+      "not_valid_after": null,
+      "data_arc": "7318",
+      "comment": null,
+      "first_obs": "2002-08-07",
+      "moid": "0.026",
+      "moid_jup": "1.11",
+      "condition_code": "0",
+      "n_del_obs_used": null,
+      "not_valid_before": null,
+      "cov_epoch": "2457256.5",
+      "epoch": "2461000.5",
+      "last_obs": "2022-08-20",
+      "pe_used": "DE441",
+      "n_dop_obs_used": null,
+      "orbit_id": "36",
+      "two_body": null,
+      "equinox": "J2000",
+      "model_pars": [],
+      "elements": [
+        {
+          "units": null,
+          "title": "eccentricity",
+          "value": "0.956",
+          "sigma": "1.2e-07",
+          "name": "e",
+          "label": "e"
+        },
+        {
+          "label": "a",
+          "name": "a",
+          "sigma": "2.7e-08",
+          "value": "2.51",
+          "title": "semi-major axis",
+          "units": "au"
+        },
+        {
+          "sigma": "3.1e-07",
+          "name": "q",
+          "label": "q",
+          "title": "perihelion distance",
+          "units": "au",
+          "value": "0.109"
+        },
+        {
+          "value": "26",
+          "units": "deg",
+          "title": "inclination; angle with respect to x-y ecliptic plane",
+          "label": "i",
+          "sigma": "6e-05",
+          "name": "i"
+        },
+        {
+          "label": "node",
+          "sigma": "1.9e-05",
+          "name": "om",
+          "value": "315",
+          "units": "deg",
+          "title": "longitude of the ascending node"
+        },
+        {
+          "units": "deg",
+          "title": "argument of perihelion",
+          "value": "211",
+          "name": "w",
+          "sigma": "4.3e-05",
+          "label": "peri"
+        },
+        {
+          "sigma": "1.6e-05",
+          "name": "ma",
+          "label": "M",
+          "title": "mean anomaly",
+          "units": "deg",
+          "value": "323"
+        },
+        {
+          "value": "2461148.283",
+          "title": "time of perihelion passage",
+          "units": "TDB",
+          "label": "tp",
+          "sigma": "6.6e-05",
+          "name": "tp"
+        },
+        {
+          "title": "sidereal orbital period",
+          "units": "d",
+          "value": "1450",
+          "sigma": "2.3e-05",
+          "name": "per",
+          "label": "period"
+        },
+        {
+          "sigma": "4e-09",
+          "name": "n",
+          "label": "n",
+          "units": "deg/d",
+          "title": "mean motion",
+          "value": "0.248"
+        },
+        {
+          "units": "au",
+          "title": "aphelion distance",
+          "value": "4.9",
+          "name": "ad",
+          "sigma": "5.3e-08",
+          "label": "Q"
+        }
+      ],
+      "soln_date": "2022-08-21 06:11:27",
+      "rms": "0.61",
+      "t_jup": "2.440",
+      "producer": "Otto Matic",
+      "source": "JPL"
+    },
+    "phys_par": [
+      {
+        "sigma": null,
+        "title": "absolute magnitude",
+        "ref": "MPO712841",
+        "notes": null,
+        "name": "H",
+        "desc": "absolute magnitude (magnitude at 1 au from Sun and observer)",
+        "value": "19.30",
+        "units": null
+      }
+    ],
+    "discovery": {
+      "discovery": "Discovered 2002-08-07 by NEAT at Palomar",
+      "site": null,
+      "citation": null,
+      "name": null,
+      "date": "2002-Aug-07",
+      "ref": null,
+      "cref": null,
+      "location": "Palomar",
+      "who": "NEAT"
+    }
+  },
+  "normalized": {
+    "spkid": "20399457",
+    "full_name": "399457 (2002 PD43)",
+    "pha": true,
+    "absolute_magnitude_h": null,
+    "diameter_km": null,
+    "diameter_m": null,
+    "density_kgm3": null,
+    "velocity_kms": null,
+    "impact_probability": null,
+    "palermo_scale": null,
+    "torino_scale": null,
+    "reported_energy_megatons": null,
+    "reported_mass_kg": null,
+    "vi_data": [],
+    "source": "NASA SBDB"
+  }
+}

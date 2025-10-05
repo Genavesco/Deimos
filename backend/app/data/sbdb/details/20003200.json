@@ -1,0 +1,293 @@
+{
+  "fetched_at": 1759664252.7000644,
+  "data": {
+    "signature": {
+      "version": "1.3",
+      "source": "NASA/JPL Small-Body Database (SBDB) API"
+    },
+    "vi_data": [],
+    "orbit": {
+      "producer": "Otto Matic",
+      "orbit_id": "932",
+      "epoch": "2461000.5",
+      "model_pars": [
+        {
+          "kind": "EST",
+          "title": "non-grav. transverse accel.",
+          "units": "au/d^2",
+          "name": "A2",
+          "sigma": "3.652E-16",
+          "n": 1,
+          "desc": "non-gravitational transverse acceleration parameter",
+          "value": "-6.14e-15"
+        },
+        {
+          "value": "1.",
+          "sigma": null,
+          "desc": "normalizing factor [default 0.1112620426]",
+          "n": 0,
+          "name": "ALN",
+          "units": null,
+          "kind": "SET",
+          "title": "normalizing factor"
+        },
+        {
+          "value": "0.",
+          "n": 0,
+          "desc": "non-grav. model constant, exponent k [default 4.6142]",
+          "sigma": null,
+          "name": "NK",
+          "units": null,
+          "title": "non-grav. model exp. k",
+          "kind": "SET"
+        },
+        {
+          "value": "2.",
+          "name": "NM",
+          "sigma": null,
+          "desc": "non-grav. model constant, exponent m [default 2.15]",
+          "n": 0,
+          "units": null,
+          "kind": "SET",
+          "title": "non-grav. model exp. m"
+        },
+        {
+          "units": null,
+          "kind": "SET",
+          "title": "non-grav. model exp. n",
+          "value": "0.",
+          "name": "NN",
+          "sigma": null,
+          "desc": "non-grav. model constant, exponent n [default 5.093]",
+          "n": 0
+        },
+        {
+          "title": "normalizing distance",
+          "kind": "SET",
+          "units": "au",
+          "name": "R0",
+          "n": 0,
+          "desc": "normalizing distance, au [default 2.808 au]",
+          "sigma": null,
+          "value": "1."
+        }
+      ],
+      "moid": "0.0187",
+      "pe_used": "DE441",
+      "rms": "0.34",
+      "condition_code": "0",
+      "two_body": null,
+      "comment": "Nongravitational accels. using nonstandard g(r) = (1 au/ r)^2",
+      "not_valid_after": null,
+      "n_obs_used": 8100,
+      "elements": [
+        {
+          "name": "e",
+          "label": "e",
+          "sigma": "4.7e-10",
+          "title": "eccentricity",
+          "units": null,
+          "value": "0.89"
+        },
+        {
+          "value": "1.27",
+          "units": "au",
+          "sigma": "7.7e-10",
+          "title": "semi-major axis",
+          "name": "a",
+          "label": "a"
+        },
+        {
+          "label": "q",
+          "name": "q",
+          "title": "perihelion distance",
+          "sigma": "6.3e-10",
+          "units": "au",
+          "value": "0.14"
+        },
+        {
+          "sigma": "9.4e-08",
+          "title": "inclination; angle with respect to x-y ecliptic plane",
+          "name": "i",
+          "label": "i",
+          "value": "22.3",
+          "units": "deg"
+        },
+        {
+          "title": "longitude of the ascending node",
+          "sigma": "1.7e-07",
+          "name": "om",
+          "label": "node",
+          "value": "265",
+          "units": "deg"
+        },
+        {
+          "value": "322",
+          "units": "deg",
+          "sigma": "1.5e-07",
+          "title": "argument of perihelion",
+          "label": "peri",
+          "name": "w"
+        },
+        {
+          "value": "164",
+          "units": "deg",
+          "sigma": "1.2e-06",
+          "title": "mean anomaly",
+          "label": "M",
+          "name": "ma"
+        },
+        {
+          "title": "time of perihelion passage",
+          "sigma": "1.6e-06",
+          "name": "tp",
+          "label": "tp",
+          "value": "2460761.997",
+          "units": "TDB"
+        },
+        {
+          "units": "d",
+          "value": "524",
+          "label": "period",
+          "name": "per",
+          "title": "sidereal orbital period",
+          "sigma": "4.7e-07"
+        },
+        {
+          "name": "n",
+          "label": "n",
+          "sigma": "6.2e-10",
+          "title": "mean motion",
+          "units": "deg/d",
+          "value": "0.688"
+        },
+        {
+          "label": "Q",
+          "name": "ad",
+          "sigma": "1.5e-09",
+          "title": "aphelion distance",
+          "units": "au",
+          "value": "2.4"
+        }
+      ],
+      "n_del_obs_used": 8,
+      "sb_used": "SB441-N16",
+      "first_obs": "1983-10-27",
+      "t_jup": "4.510",
+      "not_valid_before": null,
+      "moid_jup": "2.73",
+      "equinox": "J2000",
+      "data_arc": "15317",
+      "cov_epoch": "2457485.5",
+      "n_dop_obs_used": 0,
+      "soln_date": "2025-10-04 06:20:44",
+      "last_obs": "2025-10-03",
+      "source": "JPL"
+    },
+    "discovery": {
+      "name": null,
+      "citation": null,
+      "location": "",
+      "ref": "DISCOVERY.DB",
+      "site": null,
+      "cref": null,
+      "date": "1983-Oct-11",
+      "who": "IRAS",
+      "discovery": "Discovered 1983-10-11 by IRAS at "
+    },
+    "object": {
+      "prefix": null,
+      "kind": "an",
+      "fullname": "3200 Phaethon (1983 TB)",
+      "neo": true,
+      "orbit_id": "932",
+      "pha": true,
+      "des": "3200",
+      "shortname": "3200 Phaethon",
+      "orbit_class": {
+        "code": "APO",
+        "name": "Apollo"
+      },
+      "spkid": "20003200"
+    },
+    "phys_par": [
+      {
+        "notes": null,
+        "title": "absolute magnitude",
+        "units": null,
+        "name": "H",
+        "sigma": null,
+        "desc": "absolute magnitude (magnitude at 1 au from Sun and observer)",
+        "value": "14.39",
+        "ref": "E2025R60"
+      },
+      {
+        "units": "km",
+        "notes": "Delay-depth and 5% bandwidth variations suggest slightly oblong equatorial dimensions of 6.1 x 6.4 km. Thermophysical modeling by Hanus et al. (2016) found effective diameter of 5.1 +/- 0.2km.",
+        "title": "diameter",
+        "ref": "Taylor et al, \"Arecibo Radar Observations of near-Earth asteroid (3200) Phaethon during the 2017 apparition\", Planetary and Space Science. 10.1016/j.pss.2019.01.009",
+        "value": "6.25",
+        "sigma": "0.15",
+        "desc": "effective body diameter",
+        "name": "diameter"
+      },
+      {
+        "title": "rotation period",
+        "notes": "REFERENCE LIST:[Meech, K.J.; Hainaut, O.R.; Buie, M.W. (1996) Abstracts of ACM 1996, 42.], [Pravec, P.; Wolf, M.; Sarounova, L. (1998) Icarus 136, 124-153.], [Krugly, Yu.N.; Bel'skaya, I.N.; Shevchenko, V.G.; et al. (2002) Icarus 158, 294-304.], [Pravec, P.; Wolf, M.; Sarounova, L. (2004) http://www.asu.cas.cz/~ppravec/neo.htm], [Dundon, L.R. (2005) M.Sc. Thesis. https://scholarspace.manoa.hawaii.edu/bitstream/10125/10391/1/uhm_m s_3980_r.pdf], [Pan, S.K-S.; Abe, S.; Kinos, D. (2012) ACM 2012, #6294.], [Ansdell, M.; Meech, K.J.; Hainaut, O.; Buie, M.W.; et al. (2014) Astrophys. J. 793, A50.], [Warner, B.D. (2015) Minor Planet Bull. 42, 115-127.], [Hanus, J.; Delbo, M.; Vokrouhlicky, D.; Pravec, P.; et al. (2016). Astron. Astrophys. 586, A108.], [Warner, B.D. (2017) Minor Planet Bull. 44, 98-107.], [Hanus, J.; Vokrouhlicky, D.; Delbo, M.; Farnocchia, D.; et al. (2018) Astron. Astrophys. 620, L8.], [Kim, M.-J.; Lee, H.-J.; Lee, S.-M.; Kim, D.-H; et al. (2018) Astron. Astrophys. 619, A123.], [Schmidt, R.E. (2018) Minor Planet Bull. 45, 131.], [Warner, B.D; Stephens, R.D. (2018) (3200 Phaethon). http://www.planetarysciences.org/PHP/CS3_Lightcurves.php], [Warner, B.D.; Stephens, R.D. (2020) Minor Planet Bull. 47, 105-120.], [Warner, B.D.; Stephens, R.D. (2022) Minor Planet Bull. 49, 83-89.]",
+        "units": "h",
+        "desc": "body rotation period (synodic)",
+        "sigma": null,
+        "name": "rot_per",
+        "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+        "value": "3.604"
+      },
+      {
+        "ref": "IRAS-A-FPA-3-RDR-IMPS-V6.0",
+        "value": "0.1066",
+        "sigma": "0.011",
+        "desc": "geometric albedo",
+        "name": "albedo",
+        "units": null,
+        "notes": "IRAS observations used: 18",
+        "title": "geometric albedo"
+      },
+      {
+        "units": null,
+        "title": "Tholen spectral type",
+        "notes": "used 4 color indices",
+        "ref": "EAR-A-5-DDR-TAXONOMY-V4.0",
+        "value": "F",
+        "desc": "Tholen spectral taxonomic classification",
+        "sigma": null,
+        "name": "spec_T"
+      },
+      {
+        "value": "B",
+        "ref": "EAR-A-5-DDR-TAXONOMY-V4.0",
+        "sigma": null,
+        "desc": "SMASSII spectral taxonomic classification",
+        "name": "spec_B",
+        "units": null,
+        "notes": "based on a high-resolution spectrum by Xu et al. (1995) or Bus and Binzel (2002)",
+        "title": "SMASSII spectral type"
+      }
+    ]
+  },
+  "normalized": {
+    "spkid": "20003200",
+    "full_name": "3200 Phaethon (1983 TB)",
+    "pha": true,
+    "absolute_magnitude_h": null,
+    "diameter_km": 6.25,
+    "diameter_m": 6250.0,
+    "density_kgm3": null,
+    "velocity_kms": null,
+    "impact_probability": null,
+    "palermo_scale": null,
+    "torino_scale": null,
+    "reported_energy_megatons": null,
+    "reported_mass_kg": null,
+    "vi_data": [],
+    "source": "NASA SBDB"
+  }
+}

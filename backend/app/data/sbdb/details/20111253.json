@@ -1,0 +1,201 @@
+{
+  "fetched_at": 1759663780.141368,
+  "data": {
+    "phys_par": [
+      {
+        "notes": null,
+        "desc": "absolute magnitude (magnitude at 1 au from Sun and observer)",
+        "ref": "MPO902345",
+        "name": "H",
+        "units": null,
+        "value": "15.25",
+        "sigma": null,
+        "title": "absolute magnitude"
+      },
+      {
+        "units": "km",
+        "value": "3.006",
+        "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[neos] (http://adsabs.harvard.edu/abs/2012ApJ...760L..12M)",
+        "notes": null,
+        "desc": "effective body diameter",
+        "name": "diameter",
+        "title": "diameter",
+        "sigma": "0.893"
+      },
+      {
+        "sigma": "0.156",
+        "title": "geometric albedo",
+        "desc": "geometric albedo",
+        "notes": null,
+        "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[neos] (http://adsabs.harvard.edu/abs/2012ApJ...760L..12M)",
+        "name": "albedo",
+        "value": "0.178",
+        "units": null
+      }
+    ],
+    "discovery": {
+      "who": "LINEAR",
+      "location": "Socorro",
+      "name": null,
+      "date": "2001-Dec-09",
+      "ref": "20051019/Numbers.arc",
+      "cref": null,
+      "discovery": "Discovered 2001-12-09 by LINEAR at Socorro",
+      "citation": null,
+      "site": null
+    },
+    "object": {
+      "prefix": null,
+      "spkid": "20111253",
+      "pha": true,
+      "orbit_class": {
+        "name": "Apollo",
+        "code": "APO"
+      },
+      "fullname": "111253 (2001 XU10)",
+      "neo": true,
+      "kind": "an",
+      "des": "111253",
+      "orbit_id": "386"
+    },
+    "orbit": {
+      "t_jup": "3.742",
+      "rms": "0.52",
+      "producer": "Otto Matic",
+      "source": "JPL",
+      "soln_date": "2025-04-24 06:20:33",
+      "equinox": "J2000",
+      "elements": [
+        {
+          "label": "e",
+          "name": "e",
+          "sigma": "4.6e-10",
+          "value": "0.44",
+          "units": null,
+          "title": "eccentricity"
+        },
+        {
+          "name": "a",
+          "sigma": "5.2e-10",
+          "label": "a",
+          "title": "semi-major axis",
+          "units": "au",
+          "value": "1.75"
+        },
+        {
+          "value": "0.982",
+          "title": "perihelion distance",
+          "units": "au",
+          "label": "q",
+          "name": "q",
+          "sigma": "9.5e-10"
+        },
+        {
+          "label": "i",
+          "name": "i",
+          "sigma": "7.3e-08",
+          "value": "42",
+          "title": "inclination; angle with respect to x-y ecliptic plane",
+          "units": "deg"
+        },
+        {
+          "units": "deg",
+          "title": "longitude of the ascending node",
+          "value": "310",
+          "sigma": "1.1e-07",
+          "name": "om",
+          "label": "node"
+        },
+        {
+          "name": "w",
+          "sigma": "1.9e-07",
+          "label": "peri",
+          "units": "deg",
+          "title": "argument of perihelion",
+          "value": "6.97"
+        },
+        {
+          "units": "deg",
+          "title": "mean anomaly",
+          "value": "232",
+          "sigma": "4.3e-07",
+          "name": "ma",
+          "label": "M"
+        },
+        {
+          "label": "tp",
+          "name": "tp",
+          "sigma": "1.1e-06",
+          "value": "2461302.048",
+          "units": "TDB",
+          "title": "time of perihelion passage"
+        },
+        {
+          "title": "sidereal orbital period",
+          "units": "d",
+          "value": "848",
+          "sigma": "3.8e-07",
+          "name": "per",
+          "label": "period"
+        },
+        {
+          "value": "0.425",
+          "title": "mean motion",
+          "units": "deg/d",
+          "label": "n",
+          "name": "n",
+          "sigma": "1.9e-10"
+        },
+        {
+          "value": "2.52",
+          "units": "au",
+          "title": "aphelion distance",
+          "label": "Q",
+          "sigma": "7.5e-10",
+          "name": "ad"
+        }
+      ],
+      "model_pars": [],
+      "n_dop_obs_used": null,
+      "orbit_id": "386",
+      "two_body": null,
+      "pe_used": "DE441",
+      "last_obs": "2025-04-23",
+      "epoch": "2461000.5",
+      "cov_epoch": "2458310.5",
+      "n_del_obs_used": null,
+      "condition_code": "0",
+      "not_valid_before": null,
+      "moid_jup": "2.79",
+      "first_obs": "2000-02-08",
+      "moid": "0.0314",
+      "comment": null,
+      "not_valid_after": null,
+      "data_arc": "9206",
+      "sb_used": "SB441-N16",
+      "n_obs_used": 2142
+    },
+    "signature": {
+      "version": "1.3",
+      "source": "NASA/JPL Small-Body Database (SBDB) API"
+    },
+    "vi_data": []
+  },
+  "normalized": {
+    "spkid": "20111253",
+    "full_name": "111253 (2001 XU10)",
+    "pha": true,
+    "absolute_magnitude_h": null,
+    "diameter_km": 3.006,
+    "diameter_m": 3006.0,
+    "density_kgm3": null,
+    "velocity_kms": null,
+    "impact_probability": null,
+    "palermo_scale": null,
+    "torino_scale": null,
+    "reported_energy_megatons": null,
+    "reported_mass_kg": null,
+    "vi_data": [],
+    "source": "NASA SBDB"
+  }
+}

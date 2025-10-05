@@ -1,0 +1,211 @@
+{
+  "fetched_at": 1759660780.0698807,
+  "data": {
+    "vi_data": [],
+    "signature": {
+      "version": "1.3",
+      "source": "NASA/JPL Small-Body Database (SBDB) API"
+    },
+    "orbit": {
+      "moid_jup": "2.15",
+      "not_valid_before": null,
+      "condition_code": "0",
+      "n_del_obs_used": null,
+      "n_obs_used": 3293,
+      "sb_used": "SB441-N16",
+      "data_arc": "10720",
+      "not_valid_after": null,
+      "comment": null,
+      "moid": "0.0154",
+      "first_obs": "1995-02-03",
+      "pe_used": "DE441",
+      "orbit_id": "401",
+      "n_dop_obs_used": null,
+      "two_body": null,
+      "elements": [
+        {
+          "sigma": "1.5e-09",
+          "name": "e",
+          "label": "e",
+          "title": "eccentricity",
+          "units": null,
+          "value": "0.594"
+        },
+        {
+          "value": "2.26",
+          "units": "au",
+          "title": "semi-major axis",
+          "label": "a",
+          "name": "a",
+          "sigma": "1.1e-09"
+        },
+        {
+          "units": "au",
+          "title": "perihelion distance",
+          "value": "0.92",
+          "name": "q",
+          "sigma": "3.3e-09",
+          "label": "q"
+        },
+        {
+          "name": "i",
+          "sigma": "9.8e-08",
+          "label": "i",
+          "units": "deg",
+          "title": "inclination; angle with respect to x-y ecliptic plane",
+          "value": "23.2"
+        },
+        {
+          "value": "236",
+          "units": "deg",
+          "title": "longitude of the ascending node",
+          "label": "node",
+          "sigma": "4.8e-07",
+          "name": "om"
+        },
+        {
+          "value": "140",
+          "units": "deg",
+          "title": "argument of perihelion",
+          "label": "peri",
+          "name": "w",
+          "sigma": "3.9e-07"
+        },
+        {
+          "value": "75.2",
+          "units": "deg",
+          "title": "mean anomaly",
+          "label": "M",
+          "name": "ma",
+          "sigma": "9.5e-07"
+        },
+        {
+          "title": "time of perihelion passage",
+          "units": "TDB",
+          "value": "2460740.848",
+          "name": "tp",
+          "sigma": "3.1e-06",
+          "label": "tp"
+        },
+        {
+          "label": "period",
+          "sigma": "8.9e-07",
+          "name": "per",
+          "value": "1240",
+          "units": "d",
+          "title": "sidereal orbital period"
+        },
+        {
+          "name": "n",
+          "sigma": "2.1e-10",
+          "label": "n",
+          "units": "deg/d",
+          "title": "mean motion",
+          "value": "0.29"
+        },
+        {
+          "units": "au",
+          "title": "aphelion distance",
+          "value": "3.61",
+          "sigma": "1.7e-09",
+          "name": "ad",
+          "label": "Q"
+        }
+      ],
+      "model_pars": [],
+      "equinox": "J2000",
+      "soln_date": "2024-06-11 05:48:54",
+      "source": "JPL",
+      "producer": "Otto Matic",
+      "rms": "0.4",
+      "t_jup": "3.276",
+      "cov_epoch": "2457719.5",
+      "epoch": "2461000.5",
+      "last_obs": "2024-06-10"
+    },
+    "object": {
+      "kind": "an",
+      "des": "159857",
+      "orbit_id": "401",
+      "orbit_class": {
+        "name": "Apollo",
+        "code": "APO"
+      },
+      "neo": true,
+      "fullname": "159857 (2004 LJ1)",
+      "spkid": "20159857",
+      "pha": true,
+      "prefix": null
+    },
+    "discovery": {
+      "name": null,
+      "ref": "20070630/Numbers.arc",
+      "date": "2004-Jun-10",
+      "cref": null,
+      "who": "LINEAR",
+      "location": "Socorro",
+      "discovery": "Discovered 2004-06-10 by LINEAR at Socorro",
+      "site": null,
+      "citation": null
+    },
+    "phys_par": [
+      {
+        "notes": null,
+        "name": "H",
+        "ref": "E2024L23",
+        "desc": "absolute magnitude (magnitude at 1 au from Sun and observer)",
+        "value": "15.47",
+        "units": null,
+        "sigma": null,
+        "title": "absolute magnitude"
+      },
+      {
+        "value": "3.070",
+        "units": "km",
+        "desc": "effective body diameter",
+        "notes": null,
+        "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[neos] (http://adsabs.harvard.edu/abs/2015ApJ...814..117N)",
+        "name": "diameter",
+        "title": "diameter",
+        "sigma": "1.324"
+      },
+      {
+        "sigma": null,
+        "title": "rotation period",
+        "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+        "notes": "REFERENCE LIST:[Pravec, P.; Wolf, M.; Sarounova, L. (2004) http://www.asu.cas.cz/~ppravec/neo.htm], [Galad, A.; Pravec, P.; Kusnirak, P.; Gajdos, S.; et al. (2005) Earth, Moon, and Planets 97, 147-163.], [Torppa, J. (2011) (Invalid URL) http://www.astro.helsinki.fi/~psr/NEO/not_obs.html], [Warner, B.D. (2015) Minor Planet Bull. 42, 41-53.], [Warner, B.D.; Stephens, R.D. (2022) Minor Planet Bull. 49, 22-29.]",
+        "name": "rot_per",
+        "desc": "body rotation period (synodic)",
+        "units": "h",
+        "value": "2.72627"
+      },
+      {
+        "title": "geometric albedo",
+        "sigma": "0.158",
+        "units": null,
+        "value": "0.130",
+        "name": "albedo",
+        "notes": null,
+        "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[neos] (http://adsabs.harvard.edu/abs/2015ApJ...814..117N)",
+        "desc": "geometric albedo"
+      }
+    ]
+  },
+  "normalized": {
+    "spkid": "20159857",
+    "full_name": "159857 (2004 LJ1)",
+    "pha": true,
+    "absolute_magnitude_h": null,
+    "diameter_km": 3.07,
+    "diameter_m": 3070.0,
+    "density_kgm3": null,
+    "velocity_kms": null,
+    "impact_probability": null,
+    "palermo_scale": null,
+    "torino_scale": null,
+    "reported_energy_megatons": null,
+    "reported_mass_kg": null,
+    "vi_data": [],
+    "source": "NASA SBDB"
+  }
+}
