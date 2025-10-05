@@ -21,7 +21,6 @@ These instructions assume Windows 11 + PowerShell, but the commands translate to
 
 ### 1. Clone or copy the project
 ```
-# Replace <your-gh-account> with your GitHub username once the repo exists
 git clone https://github.com/genavesco/deimos.git
 cd deimos
 ```
