@@ -9,12 +9,12 @@ DEIMOS - Asteroid Impact Simulator
 DEIMOS is a planetary-defense decision support app that pulls the latest potentially hazardous asteroid catalogue from NASA JPL and simulates impact scenarios anywhere on Earth. It translates orbital and physical parameters into plain-language effects (crater size, shock wave, thermal radius, tsunami, population exposure) so emergency planners can understand risk quickly and explore mitigation strategies.
 
 ## Link to Project Demo
-<https://youtu.be/your-demo-url>
+[<https://youtu.be/your-demo-url>](https://youtu.be/QxxIGrBYcx4)
 
 Create a 30-second video with English subtitles **or** a seven-slide deck (see `docs/demo-outline.md`). Host it on a public link with no login required.
 
 ## Link to Final Project
-<https://github.com/your-org/deimos>
+<https://github.com/genavesco/deimos>
 
 Provide the public GitHub repository URL (and optionally link to a live deployment if you host the frontend).
 
